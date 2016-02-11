@@ -1,0 +1,166 @@
+.version.index /* version checker */
+{
+	color: #0000E8;
+	background-color: #4F1EA5;
+}
+
+@font-face
+{
+	font-family: '__PT Sans_5';
+	src: url('../fonts/pt_sans-web-bold.eot');
+	src: local('☺'), url('../fonts/pt_sans-web-bold.woff') format('woff');
+	font-weight: 700;
+	font-style: normal;
+}
+
+#page
+{
+	border-width: 0px;
+	border-color: #000000;
+	background-color: transparent;
+	min-height: 0px;
+	margin-left: auto;
+	width: 100%;
+	z-index: 1;
+	background-image: none;
+	margin-right: auto;
+}
+
+#u157-4
+{
+	font-size: 30px;
+	width: 100%;
+	background-color: transparent;
+	position: relative;
+	line-height: 54px;
+	color: #FFFFFF;
+	font-weight: 700;
+	text-align: center;
+	border-width: 4px;
+	border-color: #ED5153;
+	border-style: solid;
+	font-family: '__PT Sans_5';
+	border-radius: 2px;
+	left: -50%;
+}
+
+#u157-4-wrapper
+{
+	left: 50%;
+	z-index: 2;
+	position: fixed;
+}
+
+#u289
+{
+	position: fixed;
+	z-index: 6;
+	height: 73px;
+	background: transparent url("../images/12.png") no-repeat center center;
+}
+
+#u289-bw
+{
+	z-index: 6;
+}
+
+.html
+{
+	background: #101010 url("../images/bg_main2.gif") no-repeat center center scroll;
+	background-size: cover;
+}
+
+body
+{
+	position: relative;
+}
+
+@media (min-width: 321px)
+{
+	#muse_css_mq
+	{
+		background-color: #FFFFFF;
+	}
+
+	#bp_infinity.active
+	{
+		display: block;
+	}
+
+	#page
+	{
+		padding-bottom: 375px;
+		max-width: 375px;
+	}
+
+	#u157-4
+	{
+		min-height: 60px;
+		margin-left: 88.5px;
+		max-width: 169px;
+	}
+
+	#u157-4-wrapper
+	{
+		bottom: 87px;
+		margin-left: -89px;
+		width: 45.07%;
+		max-width: 169px;
+	}
+
+	#u289
+	{
+		bottom: -1px;
+	}
+
+}
+
+@media (max-width: 320px)
+{
+	/*
+
+*/
+
+	#muse_css_mq
+	{
+		background-color: #000140;
+	}
+
+	#bp_320.active
+	{
+		display: block;
+	}
+
+	#page
+	{
+		padding-bottom: 349px;
+		max-width: 320px;
+	}
+
+	#u157-4
+	{
+		min-height: 53px;
+		margin-left: 76.10666666666665px;
+		max-width: 144px;
+	}
+
+	#u157-4-wrapper
+	{
+		bottom: 79px;
+		margin-left: -76px;
+		width: 45%;
+		max-width: 144px;
+	}
+
+	#u289
+	{
+		bottom: 0px;
+	}
+
+	body
+	{
+		min-width: 320px;
+	}
+
+}
+
